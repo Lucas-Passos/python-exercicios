@@ -1,6 +1,6 @@
 import urllib
 import urllib.request
-'''#exercicio 113
+# exercicio 113
 def leiaInt(msg):
     while True:
         try:
@@ -30,12 +30,12 @@ def leiaFloat(msg):
 
 n1 = leiaInt('Digite um valor inteiro: ')
 n2 = leiaFloat('Digite um valor real: ')
-print(f'O valor inteiro digitado foi: {n1} e o valor real foi {n2}')'''
+print(f'O valor inteiro digitado foi: {n1} e o valor real foi {n2}')
 
-'''exercicio 114
+# exercicio 114
 try:
     site = urllib.request.urlopen('https://www.pudim.com.br')
 except urllib.error.URLError:
     print('O site Pudim nao esta acessivel no momento')
 else:
-    print('Consegui acessar o site Pudim com sucesso!')'''
+    print('Consegui acessar o site Pudim com sucesso!')
